@@ -17,6 +17,22 @@ html *{
 
 }
 
+p{
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: 
+        typing 7s,
+        kursor .20s step-end infinite alternate;
+}
+.information{
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: 
+        typing 3s,
+        kursor .20s step-end infinite alternate;
+}
 h2{
     margin-top: 50px;
     font-size: 20px;
